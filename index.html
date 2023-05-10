@@ -15,14 +15,17 @@
   <style>
  
           #head1{
-            color: rgb(161, 163, 159);
+            color: rgb(7, 7, 6);
             text-align: center;
-            font-style: italic;
+            font-style: calc();
+            margin-left: 50%;
           }
           #head2{
-            color: rgb(81, 150, 12);
+            color: rgb(43, 41, 40);
             text-align: center;
             font-style: italic;
+            font-size:large;
+            margin-right:  30%;
           }  
           .footer-content{
             background-color: rgb(121, 121, 121);
@@ -40,12 +43,26 @@
             background-color: black;
             color: white;
           }
+          .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: azure;
+            z-index: 100;
+           
+            
+          }
   </style>
 
   <body>
     <div class="first">
-        <h1 id="head1">SPORTS</h1>
-        <h3 id="head2">All About Sports...</h3>
+      <nav class="navbar">
+        
+        <h1 id="head1">SPORTS</h1><br>
+        <h4 id="head2">All About Sports...</h4>
+       
+      </nav><br><br><br>
         <center>
             <figure class="image">
                 <img src="first.jpg" style="width:90%; height: 550px;">
